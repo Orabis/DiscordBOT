@@ -9,8 +9,7 @@ userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 
 bot = lightbulb.BotApp(
     token="token",
-    default_enabled_guilds=(123456789)
-)
+    default_enabled_guilds=(123456789))
 
 @bot.listen(hikari.StartedEvent)
 async def on_started(event):
